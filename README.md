@@ -16,19 +16,19 @@ The collected data is displayed locally on an I2C-based LCD and simultaneously t
 
 🧾 Compact & Cost-Effective – Designed as a low-cost, scalable solution for home or industrial energy monitoring.
 
-🧩 Components Used
+🧩 Components Used:
 
-NodeMCU (ESP8266)
+1. NodeMCU (ESP8266)
 
-PZEM-004T v3.0 Sensor
+2. PZEM-004T v3.0 Sensor
 
-I2C LCD Display (16x2)
+3. I2C LCD Display (16x2)
 
-Jumper Wires and Breadboard
+4. Jumper Wires and Breadboard
 
-USB Power Supply
+5. USB Power Supply
 
-🔌 Working Principle
+🔌 Working Principle:
 
 The PZEM-004T sensor continuously measures voltage, current, power, and energy usage from the load.
 
@@ -38,7 +38,7 @@ The readings are displayed on a 16x2 I2C LCD for real-time local monitoring.
 
 Simultaneously, the data is sent to ThingSpeak using Wi-Fi, where it is logged and visualized in charts and graphs.
 
-📡 ThingSpeak Integration
+📡 ThingSpeak Integration:
 
 The system uses the ThingSpeak API to upload data fields (Voltage, Current, Power, Energy, etc.) every few seconds.
 This enables remote tracking of energy consumption trends and performance analysis from anywhere in the world.
